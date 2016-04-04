@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        style="@style/textViewStyle.grande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/exposiciones"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eExpo"
+            android:layout_weight="30"/>
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/porcen"
+            android:layout_weight="1"
+            android:id="@+id/eporc1"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/practicas"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ePrac"
+            android:layout_weight="30"/>
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/porcen"
+            android:layout_weight="1"
+            android:id="@+id/eporc2"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/proyecto"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eProy"
+            android:layout_weight="30"/>
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/porcen"
+            android:id="@+id/eporc3"
+            android:layout_weight="1"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/bCalcular"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/limpiar"
+        android:id="@+id/bLimpiar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/textViewStyle.peque"
+            android:text="@string/notaFinal"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eNotaF"/>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

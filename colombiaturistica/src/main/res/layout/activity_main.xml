@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.colombiaturistica.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/principal"
+           android:textColor="@color/orangered"
+           android:textAppearance="@color/red"
+           android:textStyle="italic"
+           android:textSize="35dp"
+           android:gravity="center"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/principal1"
+           android:textColor="@color/orangered"
+           android:textAppearance="@color/red"
+           android:textStyle="italic"
+           android:textSize="20dp"
+           android:gravity="center"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/principal2"
+           android:textColor="@color/orangered"
+           android:textAppearance="@color/red"
+           android:textStyle="italic"
+           android:textSize="20dp"
+           android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sinc26106"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/fandago"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/principal3"
+           android:textColor="@color/orangered"
+           android:textAppearance="@color/red"
+           android:textStyle="italic"
+           android:textSize="20dp"
+           android:gravity="center"/>
+
+
+   </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
